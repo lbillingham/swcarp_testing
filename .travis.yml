@@ -1,7 +1,7 @@
 language: python
 python:
-	- "3.4"
-	- "nightly"
+    - "3.4"
+    - "nightly"
 install:
-	- "pip install -r requirements.txt"
-script:	nosetests
+    - "pip install -r requirements.txt"
+script:    nosetests
